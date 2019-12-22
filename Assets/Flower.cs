@@ -28,7 +28,7 @@ public class Flower : MonoBehaviour
 
         WaitForSeconds wait = new WaitForSeconds(slowTime);
 
-        vertices = new Vector3[(trunkWidth + trunkWidth + 1) * (trunkHeigth + 3 + 1)];
+        vertices = new Vector3[trunkHeigth * trunkWidth + 4 * trunkWidth];
         float theta = 0f;
 
         //How can I draw a circle in Unity3D?
@@ -54,7 +54,7 @@ public class Flower : MonoBehaviour
         //FLOWER CENTER
         for (int i = 0, y = 0; y <= 3; y++)
         {
-            if(i == 3)
+            if(i == 2)
             {
                 radius = 0;
             }
@@ -67,7 +67,7 @@ public class Flower : MonoBehaviour
                 float newX = radius * Mathf.Cos(theta);
                 float newZ = radius * Mathf.Sin(theta);
 
-                vertices[i] = new Vector3(y, newX, newZ);
+                vertices[i] = new Vector3(y, trunkHeigth + newX, newZ);
                 yield return wait;
             }
         }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProceFlowers", "ProceFlowers.csproj", "{CFB7C30B-DA01-63E3-3471-5FE2F7D44FDC}"
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProceFlowers.CSharp", "ProceFlowers.CSharp.csproj", "{ECBF2D30-A2B1-1FA3-A176-2BAF9CA2D3ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CFB7C30B-DA01-63E3-3471-5FE2F7D44FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFB7C30B-DA01-63E3-3471-5FE2F7D44FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFB7C30B-DA01-63E3-3471-5FE2F7D44FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFB7C30B-DA01-63E3-3471-5FE2F7D44FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECBF2D30-A2B1-1FA3-A176-2BAF9CA2D3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBF2D30-A2B1-1FA3-A176-2BAF9CA2D3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBF2D30-A2B1-1FA3-A176-2BAF9CA2D3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBF2D30-A2B1-1FA3-A176-2BAF9CA2D3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
